@@ -18,7 +18,57 @@
                     <h2 class="title">Rock Paper Scissors</h2>
                     <p class="title" class="lead sm">an online game of Rock Paper and Scissors</p>
                 </div>
-        
+                <div class = "row">
+                    <div class = "col-4">
+                        Enter First Player Name:
+                        <br>
+                        <br>
+                        <input id="userName" type="text"><br><br>
+                        <button id="login-button">Login</button>
+                        <br>
+                        <br>
+                        <div hidden id = "startGameOptions">
+                            <button id="start-button">Start Game</button> or <button id="join-button">Join Game</button>
+                            <br><br>
+                        </div>
+                        <div hidden id = "enterGame">
+                            <text id = "enterGameText">Enter Game Title:</text>
+                            <br>
+                            <br>
+                            <input id="gameName" type="text"><br><br>
+                            <button id="create-button">Create Game</button><br><br>
+                        </div>
+                        <div hidden id = "weapons">
+                        Choose your weapon:
+                            <br>
+                            <br>
+                            <button id="rock-button">Rock</button><button id="paper-button">Paper</button><button id="scissors-button">Scissors</button>
+                            <br>
+                            <br>
+                            <hr>
+                        </div>
+                        <div hidden id = "chatBox">
+                        Chat with opponent:
+                            <br>
+                            <textarea id = "textMessage" rows = "4" cols="42"></textarea>
+                            <br>
+                            <br>    
+                            <button id="sendMessage">Send Message</button>
+                        </div>
+                        <!-- <p id="userchoice-text"></p>
+                        <p id="computerchoice-text"></p>
+                        <p id="wins-text"></p>
+                        <p id="losses-text"></p>
+                        <p id="ties-text"></p> -->
+                    </div>
+                    <div class = "col-4" style = "border-left-style: solid; border-width: 1px;">
+                        Messages:
+                        <br>
+                        <text id="messages"></text>
+                    </div>
+                    <div class = "col-4" style = "border-left-style: solid; border-width: 1px;">
+                        Open Games:
+                    </div>
         </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
